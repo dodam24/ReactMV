@@ -4,21 +4,21 @@
   "description": "react boiler plate",
   "main": "index.js",
   "engine": {
-    "node": "10.16.0",
+    "node": "18.17.1",
     "npm": "6.9.0"
   },
   "scripts": {
     "start": "node server/index.js",
-    "backend": "nodemon server/index.js",
+    "back`end": "nodemon server/index.js",
     "frontend": "npm run start --prefix client",
-    "dev": "concurrently \"npm run backend\" \"npm run start --prefix client\""
+    "dev": "concurrently \"npm run backend\" \"np m run start --prefix client\""
   },
   "author": "John ahn",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^3.0.6",
-    "body-parser": "^1.18.3",
-    "cookie-parser": "^1.4.3",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "debug": "^4.1.1",
     "express": "^4.17.1",
