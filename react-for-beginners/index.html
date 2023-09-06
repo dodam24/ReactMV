@@ -75,7 +75,27 @@
                 </div>
             );
         }
+<<<<<<< HEAD
         const root = document.getElementById("root");
         ReactDOM.render(<App />, root);
+=======
+        const Button = () => (
+            <button
+                style={{
+                    backgroundColor: "tomato",
+                }} 
+                onClick={() => console.log("i'm clicked")}
+            >
+                Click me
+            </button>
+        );
+        const Container = () => (
+            <div>
+                <Title />
+                <Button />
+            </div>
+        );
+        ReactDOM.render(<Container />, root);
+>>>>>>> 44997d38878f80726334c63c2716b755dc485f63
     </script>
 </html>
