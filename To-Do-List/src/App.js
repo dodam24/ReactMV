@@ -10,7 +10,7 @@ function App() {
       return;
     }
     setToDos((currentArray) => [toDo, ...currentArray]); // 함수를 넣는 방법
-    setToDo(""); //값을 직접 넣는 방법
+    setToDo(""); // 값을 직접 넣는 방법
   };
   console.log(toDos);
   return (
